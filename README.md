@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio Website - Overview 🚀
 
 This repository contains the open-source version of my personal portfolio website.  
@@ -63,3 +64,6 @@ This project is licensed under the Personal Portfolio License (PPL) v1.0.
 
 See the LICENSE file for full details
 
+=======
+# Personal_Portfolio
+>>>>>>> 66e9c7d353b3e8998e6619bedf0572a808263f84

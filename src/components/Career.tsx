@@ -15,43 +15,49 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Web Design Intern</h4>
+                <h5>CTTC</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Internship</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Assisted in developing and optimizing responsive web applications.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>AI/ML Intern</h4>
+                <h5>Labmentix</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Internship</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed and trained ML models and performed data preprocessing.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>PGDCA</h4>
+                <h5>Aptech Learning</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>1-year Training</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Demonstrated 1-year certified training in C, C++, Java, SQL Server, Cloud Computing and MS Office suite.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Web Development Intern</h4>
+                <h5>Internshala Trainings</h5>
+              </div>
+              <h3>8-week Training</h3>
+            </div>
+            <p>
+              Completed an 8-week certified training covering HTML, CSS, Bootstrap, JavaScript, React, PHP, DBMS, with hands-on projects.
             </p>
           </div>
         </div>

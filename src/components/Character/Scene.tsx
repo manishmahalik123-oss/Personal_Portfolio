@@ -98,16 +98,15 @@ const Scene = () => {
         });
       };
 
-      document.addEventListener("mousemove", (event) => {
-        onMouseMove(event);
-      });
+      document.addEventListener("mousemove", onMouseMove);
       const landingDiv = document.getElementById("landingDiv");
       if (landingDiv) {
         landingDiv.addEventListener("touchstart", onTouchStart);
         landingDiv.addEventListener("touchend", onTouchEnd);
       }
+      let reqId: number;
       const animate = () => {
-        requestAnimationFrame(animate);
+        reqId = requestAnimationFrame(animate);
         if (headBone) {
           handleHeadRotation(
             headBone,
@@ -127,6 +126,7 @@ const Scene = () => {
       };
       animate();
       return () => {
+        cancelAnimationFrame(reqId);
         clearTimeout(debounce);
         scene.clear();
         renderer.dispose();
